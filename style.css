@@ -111,10 +111,10 @@ body {
     line-height: 1;
 }
 
-ol,
+/* ol,
 ul {
     list-style: none;
-}
+} */
 
 blockquote,
 q {
@@ -191,14 +191,24 @@ h1 {
     justify-content: center;
     transform: translateY(25%);
 
+
+
 }
 
 #listSquare {
-    width: 30rem;
+    width: 40rem;
     height: 20rem;
     background-color: antiquewhite;
     border: 5px solid lightgrey;
     border-radius: 5%;
+    overflow: auto;
+
+
+}
+
+li {
+    margin-left: 2rem;
+    margin-top: 1rem;
 }
 
 /* .inputArea {
